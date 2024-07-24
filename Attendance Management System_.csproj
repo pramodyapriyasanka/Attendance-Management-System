@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDB9F384-CE7C-455A-929C-EBFEACE3300E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Attendance_Management_System_</RootNamespace>
+    <AssemblyName>Attendance Management System_</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Attendance">
+      <HintPath>..\Attendance.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PAL\Forms\FormForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\Forms\FormForgotPassword.Designer.cs">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\Forms\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\Forms\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlAddClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlAddClass.Designer.cs">
+      <DependentUpon>UserControlAddClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlAddStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlAddStudent.Designer.cs">
+      <DependentUpon>UserControlAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAL\User Control\UserControlDashboard.Designer.cs">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PAL\Forms\FormForgotPassword.resx">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\Forms\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\User Control\UserControlAddClass.resx">
+      <DependentUpon>UserControlAddClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\User Control\UserControlAddStudent.resx">
+      <DependentUpon>UserControlAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\User Control\UserControlDashboard.resx">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\icons8-search-50.png" />
+    <None Include="Resources\icons8-classroom-50.png" />
+    <None Include="Resources\down1.png" />
+    <None Include="Resources\Photo4.png" />
+    <None Include="Resources\Dashboard21.png" />
+    <None Include="Resources\attendance1.png" />
+    <None Include="Resources\attendance.png" />
+    <None Include="Resources\Dashboard1.png" />
+    <None Include="Resources\Dashboard2.png" />
+    <None Include="Resources\Dashboard.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\Uni c3.png" />
+    <None Include="Resources\advanced-ai-technology2.png" />
+    <None Include="Resources\lovepik-minus-linear-png-image_400328221_wh1200.png" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\bk2.jpg" />
+    <None Include="Resources\Photo3.png" />
+    <None Include="Resources\advanced-ai-technology1.png" />
+    <None Include="Resources\Uni c2.png" />
+    <None Include="Resources\lock1.png" />
+    <None Include="Resources\Photo2.png" />
+    <None Include="Resources\Uni c1.png" />
+    <None Include="Resources\Uni c.png" />
+    <None Include="Resources\lock4.png" />
+    <None Include="Resources\istockphoto-1414284061-612x612.jpg" />
+    <None Include="Resources\advanced-ai-technology.png" />
+    <None Include="Resources\simp.jpg" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\bk5.jpg" />
+    <None Include="Resources\Learning-Management-System.png" />
+    <None Include="Resources\bk4.jpg" />
+    <None Include="Resources\bk1.jpg" />
+    <None Include="Resources\bk.jpg" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\backgrounf.jpg" />
+    <None Include="Resources\Photo1.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\minus.jpg" />
+    <None Include="Resources\white-cross-icon-3.jpg" />
+    <None Include="Resources\cut12.png" />
+    <None Include="Resources\cut11.png" />
+    <None Include="Resources\cut1.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\unhide4.png" />
+    <None Include="Resources\unhide3.png" />
+    <None Include="Resources\show-icon-512x410-5ofq0plr.png" />
+    <None Include="Resources\hide1.png" />
+    <None Include="Resources\Photo.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\error.jpg" />
+    <None Include="Resources\Invalid.png" />
+    <None Include="Resources\unhide.png" />
+    <None Include="Resources\hide.png" />
+    <None Include="Resources\Icon.png" />
+    <None Include="Resources\Minimize.png" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

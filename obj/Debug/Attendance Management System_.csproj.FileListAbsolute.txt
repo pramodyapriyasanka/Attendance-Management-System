@@ -1,0 +1,35 @@
+D:\ask\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.exe.config
+D:\ask\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.exe
+D:\ask\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.pdb
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.AssemblyReference.cache
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.SuggestedBindingRedirects.cache
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormLogin.resources
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.Properties.Resources.resources
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.GenerateResource.cache
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.CoreCompileInputs.cache
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.exe
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.pdb
+D:\ask\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance.dll
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.CopyComplete
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormForgotPassword.resources
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormMain.resources
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.User_Control.UserControlDashboard.resources
+D:\ask\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.User_Control.UserControlAddClass.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.AssemblyReference.cache
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.SuggestedBindingRedirects.cache
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormForgotPassword.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormLogin.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.Forms.FormMain.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.User_Control.UserControlAddClass.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.User_Control.UserControlAddStudent.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.PAL.User_Control.UserControlDashboard.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance_Management_System_.Properties.Resources.resources
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.GenerateResource.cache
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.CoreCompileInputs.cache
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.exe
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.pdb
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.exe.config
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.exe
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance Management System_.pdb
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\bin\Debug\Attendance.dll
+D:\ask\Projects\Attendance Management System_\Attendance Management System_\obj\Debug\Attendance Management System_.csproj.CopyComplete
